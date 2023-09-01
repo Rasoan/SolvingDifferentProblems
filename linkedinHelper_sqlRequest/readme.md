@@ -57,3 +57,4 @@ COMMIT;
 ---
 
 *В решении активно применяются оконные функции.*
+![image](imagesForReadme/sql.jpg)

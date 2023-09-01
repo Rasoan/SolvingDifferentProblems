@@ -74,3 +74,5 @@ async function run(queue: Queue, maxThreads = 0): Promise<{...}>
 `npm run test`
 
 Также тесты генерят детальные отчеты-логи `./test/*.log.html`.
+
+![image](imagesForReadme/runTasks.png)

@@ -13,3 +13,5 @@
 ---------
 
 *Решение задачи основанно на [этом алгоритме](https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-levelup/dynamic-programming/print_all_paths_with_target_sum_subset/topic)*
+
+![image](imagesForReadme/print_all_paths_with_target_sum_subset_11.png)
