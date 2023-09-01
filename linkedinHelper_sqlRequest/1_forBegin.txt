@@ -1,0 +1,22 @@
+WITH clusters AS (
+  SELECT  *,
+          LEAD(date, 1) OVER(ORDER BY date) AS next_date,
+          SUM(IIF(type = 'end', 1, 0)) OVER(ORDER BY date) AS group_id
+  FROM events
+),
+
+counts AS (
+  SELECT  *,
+          group_id, 
+          COUNT(*) OVER(PARTITION BY group_id) AS cnt
+  FROM    clusters
+)
+
+SELECT
+MAX(date) AS start,
+MAX(next_date) AS end, 
+cnt as 'count'
+FROM counts
+GROUP BY group_id, cnt
+ORDER BY cnt DESC
+LIMIT 1;
