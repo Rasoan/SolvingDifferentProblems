@@ -1,5 +1,7 @@
 ### Написать функцию - ```sostavChisla(massivChisel: number[], chislo: number)```.
 
+![image](../imagesForReadme/print_all_paths_with_target_sum_subset_11.png)
+
 Функция должна находить все возможные комбинации чисел из ```massivChisel```,
 сумма которых равна ```chislo```. 
 
@@ -13,5 +15,3 @@
 ---------
 
 *Решение задачи основанно на [этом алгоритме](https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-levelup/dynamic-programming/print_all_paths_with_target_sum_subset/topic)*
-
-![image](imagesForReadme/print_all_paths_with_target_sum_subset_11.png)

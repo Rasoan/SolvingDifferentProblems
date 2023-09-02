@@ -1,5 +1,7 @@
 ### SQL для https://linkedhelper.com
 
+![image](../imagesForReadme/sql.jpg)
+
 Есть таблица events, где:
 1. id - идентификатор записи;
 2. cid - идентификатор процесса;
@@ -57,4 +59,3 @@ COMMIT;
 ---
 
 *В решении активно применяются оконные функции.*
-![image](imagesForReadme/sql.jpg)

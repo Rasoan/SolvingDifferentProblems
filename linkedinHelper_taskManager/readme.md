@@ -1,4 +1,6 @@
-# Тестовое задание "Планировщик задач"
+### Тестовое задание "Планировщик задач"
+
+![image](../imagesForReadme/runTasks.png)
 
 * Каждая отдельная задача выглядит следующим образом:
   ```
@@ -74,5 +76,3 @@ async function run(queue: Queue, maxThreads = 0): Promise<{...}>
 `npm run test`
 
 Также тесты генерят детальные отчеты-логи `./test/*.log.html`.
-
-![image](imagesForReadme/runTasks.png)
