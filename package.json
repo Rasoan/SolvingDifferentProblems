@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "jest"
+    "test": "jest && cd linkedinHelper_taskManager && pnpm run test"
   },
   "author": "Araik Rasayan",
   "license": "ISC",
